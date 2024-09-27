@@ -1,0 +1,54 @@
+.nav{
+    height: 50px;
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    right: 0;
+    justify-content: space-around;
+    align-items: center;
+   
+    border: 1px solid;
+    padding: 2rem 9%;
+    background: #fff;
+  
+}
+
+.nav a{
+    font-size: 24px;
+}
+
+/*.nav img {
+    height: 100px;
+}*/
+
+.nav .logo img{
+    margin-top: 10px;
+    height: 90px;
+    display: inline-block;
+    width: 170px;
+}
+
+
+.nav  a:hover{
+    color: #fff;
+    background:linear-gradient(120deg,#FAB2FF 40%,#565359);
+}
+.delivery-address {
+    display: flex;
+    align-items: center;
+  }
+  
+  .address-select, .address-input {
+    width: 200px; 
+    margin-left: 10px; 
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .address-input {
+    display: none; 
+  }
+ 
+

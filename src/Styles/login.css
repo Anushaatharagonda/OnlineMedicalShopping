@@ -1,0 +1,147 @@
+/*:root{
+    --black:black;
+    --purple: purple;
+    --light-color:#666;
+    --box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1)
+    
+    }
+    *{
+        font-family: 'andika';
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        border: none;
+        text-decoration: none;
+        text-transform: none;
+        transition: all .2s linear ;
+    }
+    html{
+        font-size: 62.5%;
+        overflow: hidden;
+        scroll-padding-top: 7rem;
+        scroll-behavior: smooth;
+    }
+    body{
+        background-color:#fff ;
+    }
+    
+    .header{
+        height: 100px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        border: 1px solid;
+        justify-content: space-between;
+        padding: 2rem 9%;
+        background: #fff;
+        z-index: 1000;
+        box-shadow: var(--box-shadow);
+    
+    }
+    .header .logo img{
+        margin-top: 10px;
+        height: 90px;
+        display: inline-block;
+        width: 170px;
+    }
+    .header .headbar a{
+       font-size: 1.7rem;
+       border-radius:.5rem ;
+       padding: .5rem 1.5rem;
+       color:var(--light-color)
+    }
+    .header .headbar a:hover{
+        color: #fff;
+        background:linear-gradient(120deg,#FAB2FF 40%,#663399);
+    }
+    .header .menubtn{
+        margin-right: 60px;
+    }
+    .header .menubtn button{
+        padding: 10px 45px;
+        text-align: center;
+        font-size: 14px;
+        color: #fff;
+        border: none;
+        background-image:linear-gradient(to right,#649bff,#0070fa,#649bff) ;
+        border-radius: 10px;
+    }*/
+    /* General styles for the login container */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120vh; 
+    background-color: #f4f4f4; 
+  }
+  
+  
+  .container {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 300px; 
+  }
+  
+ 
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333; 
+  }
+  
+  
+  .input-field {
+    margin-bottom: 15px;
+  }
+  
+  .input-field input {
+    width: 100%; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+  }
+  
+  .input-field input:focus {
+    border-color: #007bff; 
+  }
+  
+  
+  .error-message {
+    color: red; 
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .success-message {
+    color: green; 
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+
+  button {
+    width: 100%; 
+    padding: 10px;
+    background-color: #007bff; 
+    color: white; 
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3; 
+  }
+
+ .sihnupinput{
+  margin-bottom: 1rem;
+  width: 80%;
+ }
+  
